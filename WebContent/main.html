@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Main</title>
+	
+	<script type="text/javascript" src="javascript/jquery.js" ></script>
+	<script type="text/javascript" src="javascript/main.js" ></script>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body onload="load()">
+	<div id="titleBlock" class="block">
+		<h1>ConnectionWeb</h1>
+		<table>
+			<tr>
+				<td><p>账户名：</p></td>
+				<td><p id="myName"></p></td>
+				<td><input type="button" id="btnDestroy" value="注销" /></td>
+			</tr>
+		</table>
+	</div>
+	<div id="connectionBlock" class="block">
+		<p id="connectiongName"></p>
+		<div id="contentBlock" class="block">
+			<pre id="content"></pre>
+		</div>
+		<textarea rows="3" cols="1" id="txtContent"></textarea>
+		<input type="button" id="btnSend" value="发送" />
+	</div>
+	<div id="onlineMessage" class="block">
+		<table>
+			<tr>
+				<td><p>在线人数：</p></td>
+				<td><p id="onlineNumber"></p></td>
+				<td><input type="button" id="btnRefreshOnlineMessage" value="刷新" /></td>
+			</tr>
+		</table>
+		<p>在线账号：</p>
+		<div id="onlineAccount">
+		</div>
+	</div>
+	<div id="noticeBlock">
+		<p id="noticeName"></p>
+		<p id="noticeContent"></p>
+	</div>
+</body>
+</html>

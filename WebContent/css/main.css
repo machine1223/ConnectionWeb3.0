@@ -1,0 +1,92 @@
+body
+{
+	background-color:#babdb6;
+}
+
+.block
+{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+
+#titleBlock
+{
+	width:100%;
+}
+
+#titleBlock h1
+{
+	font-size:40px;
+	font-weight:bold;
+}
+
+#titleBlock h1
+{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+#connectionBlock
+{
+	float:left;
+	width:70%;
+	height:100%;
+}
+
+#connectiongName
+{
+	background-color:#ad7fa8;
+	position:relative;
+	width:80%;
+	margin:0;
+}
+
+#contentBlock
+{
+	position:relative;
+	width:80%;
+	background-color:#729fcf;
+	overflow:auto;
+}
+
+#contentBlock *
+{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+#txtContent
+{
+	width:60%;
+}
+
+#onlineMessage
+{
+	float:left;
+	width:15%;
+}
+
+#onlineAccount
+{
+	overflow:auto;
+}
+
+#onlineAccount *
+{
+	margin:0;
+	padding:0;
+}
+
+#noticeBlock
+{
+	width:300px;
+	height:100px;
+	position:absolute;
+	overflow:auto;
+}

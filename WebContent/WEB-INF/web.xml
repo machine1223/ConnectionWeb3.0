@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ConnectionWeb3.0</display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SignupServlet</servlet-name>
+    <servlet-class>servlet.SignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignupServlet</servlet-name>
+    <url-pattern>/signup_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserMessageServlet</servlet-name>
+    <servlet-class>servlet.UserMessageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserMessageServlet</servlet-name>
+    <url-pattern>/userMessage_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DestroyServlet</servlet-name>
+    <servlet-class>servlet.DestroyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DestroyServlet</servlet-name>
+    <url-pattern>/destroy_servlet</url-pattern>
+  </servlet-mapping>
+  <listener>
+    <listener-class>listener.MyServerletContextListener</listener-class>
+  </listener>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

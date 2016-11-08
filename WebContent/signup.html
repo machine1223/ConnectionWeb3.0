@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>SignUp</title>
+	
+	<script type="text/javascript" src="javascript/jquery.js" ></script>
+	<script type="text/javascript" src="javascript/signup.js" ></script>
+	<link rel="stylesheet" href="css/login.css" />
+	<link rel="stylesheet" href="css/signup.css" />
+</head>
+<body onload="load()">
+	<div class="mainBorder">
+		<p class="title">ConnectionWeb</p>
+		<div class="mainBlock">
+			<h1>注册：</h1>
+			<table>
+				<tr>
+					<td><p>账户名   </p></td>
+					<td><input type="text" id="txtName" value=""  /></td>
+					<td><p id="warnningMessage" ></p></td>
+				</tr>
+				<tr>
+					<td><p>密码    </p></td>
+					<td><input type="password" id="txtPassword" value="" /></td>
+				</tr>
+				<tr>
+					<td><p>再次输入密码</p></td>
+					<td><input type="password" id="txtPasswordAgain" value="" /></td>
+				</tr>
+				<tr>
+					<td><input type="button" id="btnConfirm" value="注册" /></td>
+					<td><input type="button" id="btnLogin" value="登陆" /></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
